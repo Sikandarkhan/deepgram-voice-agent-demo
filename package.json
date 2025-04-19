@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS=--no-experimental-global-navigator next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -14,10 +14,10 @@
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@react-hook/resize-observer": "^2.0.2",
     "@uidotdev/usehooks": "^2.4.1",
-    "next": "14.2.18",
-    "react": "^18",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
     "react-device-detect": "^2.2.3",
-    "react-dom": "^18",
+    "react-dom": "^19.1.0",
     "sass": "^1.77.8"
   },
   "devDependencies": {
